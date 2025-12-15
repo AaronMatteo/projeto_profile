@@ -38,7 +38,8 @@ body * {
 }
 
 #container{
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /*border: 1px solid red; */
   margin: 56px auto 0px;
   padding: 0 24px;
@@ -149,5 +150,9 @@ ul li a:hover{
 footer{
   padding: 24px 0;
   text-align: center;
+  font-size: 14px;
  /*border: 1px solid red; */
 }
+
+/* media queries*/
+@media 
